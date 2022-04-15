@@ -1,4 +1,4 @@
 #!/bin/sh
 cmake -Bbuild -S.
-cd build && make all && cd ..
+cd build && make && cd ..
 ./build/bin/termtick
